@@ -31,4 +31,4 @@ async def on_message(message):
 		imgString = random.choice(imgList)
 		path = "./howaito/" + imgString
 		msg = await my_bot.send_file(message.channel, path) 
-my_bot.run("MzQwMjkyNTQ5ODMyOTk4OTEy.DFwZ0Q.XkFFODOMZXmyi_Ms_MCAf9zHd30")
+my_bot.run("-")
